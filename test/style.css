@@ -1,0 +1,132 @@
+body{margin:0;}
+/*ADMINISTRATION OR USER BUTTONS IN HEADER*/
+header>a{background:wite;width:50%;float:left;text-align:Center;font:55px;}
+
+/*NAVIGATION*/
+header > nav > ul{
+	text-align:center;
+	padding:0;
+	margin:0;
+}
+header > nav > ul > li{
+	display:inline-block;
+	width:33%;
+	padding:0;
+	margin:auto;
+	border-top:7px solid black;
+}
+/*NAVIGATION BORDER COLOR*/
+header > .userMenu > ul > li{border-top: 7px solid #ffcc00;}
+header > .adminMenu > ul > li{border-top: 7px solid #000000;}
+/*NAVIGATION BACKGROUND-COLOR ON HOVER*/
+header > .userMenu> ul > li:hover{background: #ffcc00;}
+header > .adminMenu > ul > li:hover{background: #000000;}
+
+/*NAVIGATION TEXT COLOR*/
+header > .userMenu > ul > li > a{color: #ffcc00;}
+header > .adminMenu > ul > li > a{color: #000000;}
+
+header > nav > ul > li > a{font:1em Book Antiqua;}
+/*NAVIGATION COLOR ON HOVER*/
+header > nav > ul > li:hover > a{
+	color: white;
+	display:block;
+}
+/*LINK TEXT DECORATIONS*/
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration:none;
+}
+/*последните 10 снимки листнати като линкове*/
+.latestImages{
+	float:left;
+}
+.latestImagesStyle{
+	width:50%;
+	height:500px;
+	float:left;
+	margin-top:25px;
+}
+.close{font-size:50px;color:red;float:left;position:fixed;}
+.modal{
+	position:fixed;
+	z-index:1000;
+	height:300px;
+	width:100%;
+	display:none;
+}
+.modalForImages{
+	height:100%;
+	float:left;
+	width:50%;
+	margin:auto;
+}
+/*COMMENT SECTION FOR LATEST IMAGES*/
+.imageComments{
+	height:100%;
+	float:left;
+	width:50%;
+	background:white;
+}
+
+/*MODAL BUTTONS*/
+.modalButtons{
+	float:left;
+	width:100%;
+	background:blue;
+}
+.modalButtons>button{
+	font:25px Book Antiqua;
+	border:none;
+	padding:0;
+	width:50%;
+	background:pink;
+	float:left;
+}
+/*REGISTER OR LOGIN*/
+.panel{
+	width:100%;
+	float:right;
+	text-align:center;
+}
+#registerModal{display:none;}
+label{
+	display:block;
+	margin:auto;
+	width:75%;
+	font:25px Book Antiqua;
+}
+input{
+	display:block;
+	margin:auto;
+	width:75%;
+	font:25px Book Antiqua;
+}
+textarea{
+	display:block;
+	margin:auto;
+	width:75%;
+	font:25px Book Antiqua;
+}
+/*MEMBERS TABLE*/
+.membersTable > table{
+	width: 100%;
+	border:1px solid black;
+	text-align:Center;
+	font: 20px Book Antiqua;
+	
+}
+.membersTable > table > tbody > tr > td{
+border-top:1px solid black;
+}
+/*PROFILE MANAGEMENT*/
+.displayProfileInfo {width:50%;float:left;text-align:Center;font: 27px Book Antiqua;}
+.editProfileForm {width:50%;float:left;}
